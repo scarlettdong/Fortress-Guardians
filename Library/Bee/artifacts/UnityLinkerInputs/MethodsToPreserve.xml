@@ -1,0 +1,21 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="BuildManager">
+			<method name="OnLaserSelected"/>
+			<method name="OnMissileSelected"/>
+			<method name="OnStandardSelected"/>
+		</type>
+		<type fullname="GameEndUI">
+			<method name="OnMenuButtonClick"/>
+			<method name="OnRestartButtonClick"/>
+		</type>
+		<type fullname="MenuController">
+			<method name="OnExitButtonClick"/>
+			<method name="OnStartButtonClick"/>
+		</type>
+		<type fullname="UpgradeUI">
+			<method name="OnDestroyButtonClick"/>
+			<method name="OnUpgradeButtonClick"/>
+		</type>
+	</assembly>
+</linker>
